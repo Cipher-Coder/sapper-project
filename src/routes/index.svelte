@@ -35,14 +35,14 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Aiden &amp; Zoie's Homework</title>
 </svelte:head>
 
-<h1>Great Job Asshole!</h1>
+<h1>Great Job Sir!</h1>
 
 <figure>
-  <img alt="Borat" src="great-success.png" />
-  <figcaption>HIGH FIVE!</figcaption>
+  <img alt="Borat" src="img/great-success.png" />
+  <figcaption>Fuck You!</figcaption>
 </figure>
 
 <p>
