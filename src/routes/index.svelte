@@ -1,3 +1,7 @@
+<script>
+  import Header from "../components/Header.svelte";
+</script>
+
 <style>
   h1,
   figure,
@@ -37,6 +41,8 @@
 <svelte:head>
   <title>Aiden &amp; Zoie's Homework</title>
 </svelte:head>
+
+<Header />
 
 <h1>Great Job Sir!</h1>
 
