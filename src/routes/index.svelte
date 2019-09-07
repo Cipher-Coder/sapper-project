@@ -1,10 +1,28 @@
 <script>
   import Header from "../components/Header.svelte";
+  import Card from "../components/Card.svelte";
+
+  let intro = "Lets Practice Some Skills!!";
+
+  const pkg = {
+    title: "Math Facts!",
+    src: "../img/kidBlackboard.jpg",
+    altText: "Cartoon of child in front of blackboard",
+    aHref: "#",
+    desc: "Practice Your Math!"
+  };
+
+  const art = {
+    title: "Vocabulary",
+    src: "../img/boyReading.jpg",
+    altText: "Cartoon of child reading book",
+    aHref: "#",
+    desc: "Practice Your Spelling!"
+  };
 </script>
 
 <style>
   h1,
-  figure,
   p {
     text-align: center;
     margin: 0 auto;
@@ -15,20 +33,16 @@
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 0 0.5em 0;
-  }
-
-  figure {
-    margin: 0 0 1em 0;
-  }
-
-  img {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 0 1em 0;
+    color: #000000;
   }
 
   p {
     margin: 1em auto;
+  }
+
+  .menu-container {
+    margin: auto;
+    text-align: center;
   }
 
   @media (min-width: 480px) {
@@ -44,12 +58,12 @@
 
 <Header />
 
-<h1>Great Job Sir!</h1>
+<h1>{intro}</h1>
 
-<figure>
-  <img alt="Borat" src="img/great-success.png" />
-  <figcaption>Fuck You!</figcaption>
-</figure>
+<div class="menu-container">
+  <Card {...pkg} />
+  <Card {...art} />
+</div>
 
 <p>
   <strong>

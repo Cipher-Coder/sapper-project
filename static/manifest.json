@@ -1,8 +1,8 @@
 {
   "background_color": "#ffffff",
   "theme_color": "#333333",
-  "name": "TODO",
-  "short_name": "TODO",
+  "name": "Aiden & Zoie's Homework",
+  "short_name": "Homework",
   "display": "minimal-ui",
   "start_url": "/",
   "icons": [

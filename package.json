@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "homework",
+  "description": "Aiden & Zoie's Homework",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
